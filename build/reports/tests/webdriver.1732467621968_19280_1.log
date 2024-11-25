@@ -1,0 +1,163 @@
+[1732467622.506][INFO]: Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 1689
+[1732467622.507][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1732467622.580][INFO]: ChromeDriver was started successfully on port 1689
+[1732467622.775][INFO]: [4406d09ee992fb629bf9e0f2effda2fe] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--headless=new", "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--disable-search-engine-choice-screen", "--unsafely-disable-devtools-self-xss-warnings", "--disable-background-networking", "--enable-features=NetworkService,NetworkServiceInProcess", "--disable-background-timer-throttling", "--disable-backgrounding-occluded-windows", "--disable-breakpad", "--disable-client-side-phishing-detection", "--disable-component-extensions-with-background-pages", "--disable-default-apps", "--disable-features=TranslateUI", "--disable-hang-monitor", "--disable-ipc-flooding-protection", "--disable-popup-blocking", "--disable-prompt-on-repost", "--disable-renderer-backgrounding", "--disable-sync", "--force-color-profile=srgb", "--metrics-recording-only", "--no-first-run", "--password-store=basic", "--use-mock-keychain", "--hide-scrollbars", "--mute-audio", "--window-size=1920,1080" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "autofill.credit_card_enabled": false,
+               "autofill.profile_enabled": false,
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Анастасия\\Desktop\\Netology\\selenide\\build\\downloads\\1732467621929_19280_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "profile.password_manager_enabled": false,
+               "profile.password_manager_leak_detection": false,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1732467622.777][INFO]: Browser search. Trying... C:\Users\Анастасия\.cache\selenium\chromedriver\win64\131.0.6778.85\chrome.exe
+[1732467622.777][INFO]: Browser search. Trying... C:\Users\Анастасия\.cache\selenium\chromedriver\win64\131.0.6778.85\chrome.exe
+[1732467622.777][INFO]: Browser search. Trying... C:\Users\Анастасия\.cache\selenium\chromedriver\win64\131.0.6778.85\chromium.exe
+[1732467622.780][INFO]: Browser search. Trying... C:\Users\Анастасия\AppData\Local\Google\Chrome\Application\chrome.exe
+[1732467622.780][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1732467622.780][INFO]: Browser search. Trying... C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1732467622.780][INFO]: Browser search. Found at  C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1732467622.782][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "credit_card_enabled": false,
+      "enabled": false,
+      "profile_enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Анастасия\\Desktop\\Netology\\selenide\\build\\downloads\\1732467621929_19280_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false,
+      "password_manager_leak_detection": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1732467622.782][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1732467622.783][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1732467622.783][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1732467622.786][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-default-apps --disable-dev-shm-usage --disable-features=TranslateUI --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-search-engine-choice-screen --disable-sync --enable-features=NetworkService,NetworkServiceInProcess --enable-logging --force-color-profile=srgb --headless=new --hide-scrollbars --ignore-certificate-errors --log-level=0 --metrics-recording-only --mute-audio --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --unsafely-disable-devtools-self-xss-warnings --use-mock-keychain --user-data-dir="C:\Users\08DE~1\AppData\Local\Temp\scoped_dir16048_130360796" --window-size=1920,1080 data:,
+[1732467623.412][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1732467623.707][INFO]: [4406d09ee992fb629bf9e0f2effda2fe] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "131.0.6778.86",
+      "chrome": {
+         "chromedriverVersion": "131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})",
+         "userDataDir": "C:\\Users\\08DE~1\\AppData\\Local\\Temp\\scoped_dir16048_130360796"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:61683"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "4406d09ee992fb629bf9e0f2effda2fe"
+}
+[1732467623.863][INFO]: [4406d09ee992fb629bf9e0f2effda2fe] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1732467623.863][INFO]: [4406d09ee992fb629bf9e0f2effda2fe] RESPONSE SetTimeouts
+[1732467623.870][INFO]: [4406d09ee992fb629bf9e0f2effda2fe] COMMAND Navigate {
+   "url": "https://appleinsider.ru/"
+}
+[1732467623.871][INFO]: Waiting for pending navigations...
+[1732467623.871][INFO]: Done waiting for pending navigations. Status: ok
+[1732467624.686][INFO]: Waiting for pending navigations...
+[1732467626.181][INFO]: Done waiting for pending navigations. Status: ok
+[1732467626.181][INFO]: [4406d09ee992fb629bf9e0f2effda2fe] RESPONSE Navigate
+[1732467626.193][INFO]: [4406d09ee992fb629bf9e0f2effda2fe] COMMAND Quit {
+}
+[1732467626.223][INFO]: [4406d09ee992fb629bf9e0f2effda2fe] RESPONSE Quit
